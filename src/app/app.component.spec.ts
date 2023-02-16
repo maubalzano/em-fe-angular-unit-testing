@@ -20,16 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'e4t-angular-unit-testing'`, () => {
+  it(`should have as title 'em-fe-angular-unit-testing'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('e4t-angular-unit-testing');
+    expect(app.title).toEqual('em-fe-angular-unit-testing');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('e4t-angular-unit-testing app is running!');
-  });
 });

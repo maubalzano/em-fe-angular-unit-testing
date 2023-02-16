@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "e4t-angular-unit-testing": {
+    "em-fe-angular-unit-testing": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/e4t-angular-unit-testing",
+            "outputPath": "dist/em-fe-angular-unit-testing",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "e4t-angular-unit-testing:build:production"
+              "browserTarget": "em-fe-angular-unit-testing:build:production"
             },
             "development": {
-              "browserTarget": "e4t-angular-unit-testing:build:development"
+              "browserTarget": "em-fe-angular-unit-testing:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "e4t-angular-unit-testing:build"
+            "browserTarget": "em-fe-angular-unit-testing:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "e4t-angular-unit-testing"
+  "defaultProject": "em-fe-angular-unit-testing"
 }

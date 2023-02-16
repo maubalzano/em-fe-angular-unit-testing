@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'e4t-angular-unit-testing';
+  title = 'em-fe-angular-unit-testing';
 }

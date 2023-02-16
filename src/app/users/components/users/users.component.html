@@ -1,0 +1,11 @@
+<div>
+    <div *ngFor="let user of users" class="user-card">
+        <h4>{{user.first_name}} {{user.last_name}}</h4>
+        <span>{{user.email}}</span>
+        <div>
+            <span>Email valid: </span>
+            <input type="checkbox" [checked]="user.isEmailValid">
+        </div>
+        <hr>
+    </div>
+</div>
